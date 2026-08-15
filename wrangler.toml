@@ -32,7 +32,7 @@ command = "cargo install worker-build && worker-build --release"
 build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
-UUID = "f282b878-8711-45a1-8c69-5564172123c1"
+UUID = "7481699a-f587-4d3e-ad04-9b5376dc9650"
 
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/stpdwrld/siren/refs/heads/master/web/index.html"
 SUB_PAGE_URL  = "https://raw.githubusercontent.com/stpdwrld/siren/refs/heads/master/web/sub.html"
