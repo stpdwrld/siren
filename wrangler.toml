@@ -20,6 +20,7 @@ routes = [
   { pattern = "support.zoom.us.vpn.luxx.my.id", custom_domain = true },
   { pattern = "www.uii.ac.id.vpn.luxx.my.id", custom_domain = true },
   { pattern = "untar.ac.id.vpn.luxx.my.id", custom_domain = true },
+  ]
 
 [[kv_namespaces]]
 binding = "SIREN"
