@@ -27,10 +27,10 @@ routes = [
 binding = "SIREN"
 id = "6e4797313676454da76ccd7df2b28bba"
 [build]
-command = "cargo install -q worker-build@0.1.5 && worker-build --release"
+command = "cargo install -q worker-build && worker-build --release"
 
 [env.dev]
-build = { command = "cargo install -q worker-build@0.1.5 && worker-build --dev" }
+build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "f282b878-8711-45a1-8c69-5564172123c1"
